@@ -6,6 +6,7 @@ import com.ezinnovations.eztrashgui.config.ConfigManager;
 import com.ezinnovations.eztrashgui.config.LanguageManager;
 import com.ezinnovations.eztrashgui.cooldown.CooldownManager;
 import com.ezinnovations.eztrashgui.gui.TrashGuiManager;
+import com.ezinnovations.eztrashgui.listener.CommandVisibilityListener;
 import com.ezinnovations.eztrashgui.listener.TrashGuiListener;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -35,6 +36,7 @@ public final class EzTrashGUIPlugin extends JavaPlugin {
 
         registerCommands();
         getServer().getPluginManager().registerEvents(new TrashGuiListener(this, trashGuiManager, languageManager), this);
+        getServer().getPluginManager().registerEvents(new CommandVisibilityListener(configManager), this);
     }
 
     @Override

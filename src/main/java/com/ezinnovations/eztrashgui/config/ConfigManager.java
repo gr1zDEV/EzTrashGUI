@@ -68,6 +68,8 @@ public class ConfigManager {
     public boolean isTrashCommandEnabled() { return config.getBoolean("commands.trash.enabled", true); }
     public boolean isAdminCommandEnabled() { return config.getBoolean("commands.eztrashgui.enabled", true); }
 
+    public String getTrashCommandName() { return config.getString("commands.trash.name", "trash"); }
+
     public List<String> getTrashAliases() { return config.getStringList("commands.trash.aliases"); }
     public List<String> getAdminAliases() { return config.getStringList("commands.eztrashgui.aliases"); }
 
