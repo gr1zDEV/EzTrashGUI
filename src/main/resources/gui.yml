@@ -1,0 +1,59 @@
+# =========================================================
+# EzTrashGUI GUI configuration
+# =========================================================
+
+gui:
+  # Must be a multiple of 9 and at least 18.
+  # Supported examples: 18, 27, 36, 45, 54
+  size: 27
+
+  title: "&#ff4d4dTrash GUI"
+
+  # All rows above the final row are usable trash slots.
+  # The final row is always reserved for decoration and controls.
+  allow-shift-click: true
+  allow-drag: true
+
+  # If true, items are returned when the player closes the GUI
+  # without clicking confirm.
+  return-items-on-close: true
+
+  # If returned items do not fit in the player's inventory,
+  # drop the leftovers at their location.
+  drop-leftovers-if-inventory-full: true
+
+decoration:
+  material: BLACK_STAINED_GLASS_PANE
+  name: " "
+  lore: [ ]
+  glow: false
+
+controls:
+  cancel:
+    slot: 21
+    material: RED_CONCRETE
+    name: "&c&lCancel"
+    lore:
+      - "&7Close the menu."
+      - "&7Your items will be returned."
+    glow: false
+
+  info:
+    slot: 22
+    material: PAPER
+    name: "&e&lInformation"
+    lore:
+      - "&7Place items in the trash area above."
+      - "&7Click &aConfirm &7to permanently delete them."
+      - "&7Close the GUI or click &cCancel"
+      - "&7to return your items."
+    glow: false
+
+  confirm:
+    slot: 23
+    material: LIME_CONCRETE
+    name: "&a&lConfirm"
+    lore:
+      - "&7Click to permanently delete"
+      - "&7all items in the trash area."
+    glow: false
