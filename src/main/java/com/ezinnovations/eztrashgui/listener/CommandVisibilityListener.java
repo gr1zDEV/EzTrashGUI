@@ -5,8 +5,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerCommandSendEvent;
 
+import java.util.Collection;
 import java.util.Locale;
-import java.util.Set;
 
 public class CommandVisibilityListener implements Listener {
 
@@ -22,7 +22,7 @@ public class CommandVisibilityListener implements Listener {
             return;
         }
 
-        Set<String> commands = event.getCommands();
+        Collection<String> commands = event.getCommands();
         String trashName = config.getTrashCommandName().toLowerCase(Locale.ROOT);
 
         commands.remove("eztrashgui:" + trashName);
