@@ -1,0 +1,34 @@
+# =========================================================
+# EzTrashGUI sounds configuration
+# =========================================================
+
+sounds:
+  open:
+    enabled: true
+    sound: UI_BUTTON_CLICK
+    volume: 1.0
+    pitch: 1.0
+
+  confirm:
+    enabled: true
+    sound: ENTITY_ITEM_BREAK
+    volume: 1.0
+    pitch: 1.0
+
+  cancel:
+    enabled: true
+    sound: UI_BUTTON_CLICK
+    volume: 1.0
+    pitch: 0.8
+
+  close-return:
+    enabled: true
+    sound: ITEM_BUNDLE_DROP_CONTENTS
+    volume: 1.0
+    pitch: 1.0
+
+  blocked-item:
+    enabled: true
+    sound: ENTITY_VILLAGER_NO
+    volume: 1.0
+    pitch: 1.0

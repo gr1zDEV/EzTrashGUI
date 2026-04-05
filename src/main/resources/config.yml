@@ -1,0 +1,39 @@
+# =========================================================
+# EzTrashGUI by EzInnovations
+# Main configuration file
+# =========================================================
+
+plugin:
+  prefix: "&8[&#ff4d4d&lEzTrashGUI&8]&r"
+
+language: "en"
+
+commands:
+  trash:
+    enabled: true
+    name: "trash"
+    aliases:
+      - "trashgui"
+      - "bin"
+
+  eztrashgui:
+    enabled: true
+    name: "eztrashgui"
+    aliases:
+      - "etg"
+
+permissions:
+  use: "eztrashgui.use"
+  admin: "eztrashgui.admin"
+  cooldown-bypass: "eztrashgui.cooldown.bypass"
+
+cooldown:
+  enabled: false
+  seconds: 5
+  bypass-permission: "eztrashgui.cooldown.bypass"
+
+settings:
+  log-deletions: false
+  log-item-contents: true
+  hex-colors: true
+  create-missing-language-files: true

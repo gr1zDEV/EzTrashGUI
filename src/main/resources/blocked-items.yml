@@ -1,0 +1,21 @@
+# =========================================================
+# EzTrashGUI blocked items configuration
+# =========================================================
+
+blocked-items:
+  enabled: false
+
+  # Modes:
+  # BLACKLIST = everything allowed except listed materials
+  # WHITELIST = only listed materials allowed
+  mode: "BLACKLIST"
+
+  materials:
+    - BEDROCK
+    - BARRIER
+    - COMMAND_BLOCK
+    - CHAIN_COMMAND_BLOCK
+    - REPEATING_COMMAND_BLOCK
+    - STRUCTURE_BLOCK
+    - JIGSAW
+    - LIGHT

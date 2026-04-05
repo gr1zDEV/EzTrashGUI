@@ -1,0 +1,18 @@
+messages:
+  no-permission: "%prefix% &cYou do not have permission to use this."
+  player-only: "%prefix% &cOnly players may use this command."
+
+  invalid-size: "%prefix% &cThe configured GUI size is invalid. Use a multiple of 9 with at least 18 slots."
+  language-file-missing: "%prefix% &cThe selected language file could not be found. Falling back to English."
+
+  cooldown: "%prefix% &cYou must wait &e%seconds% &cmore seconds before using this again."
+
+  opened: "%prefix% &7Opened trash menu."
+  confirmed: "%prefix% &aYour items have been permanently deleted."
+  cancelled: "%prefix% &eTrash cancelled. Your items were returned."
+  returned-on-close: "%prefix% &eYour items were returned."
+  blocked-item: "%prefix% &cThat item cannot be trashed."
+  inventory-full-drop: "%prefix% &eSome items could not fit in your inventory and were dropped at your location."
+
+  reload: "%prefix% &aConfiguration files reloaded successfully."
+  reload-no-permission: "%prefix% &cYou do not have permission to reload this plugin."

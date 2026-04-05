@@ -1,0 +1,28 @@
+name: EzTrashGUI
+version: ${project.version}
+main: com.ezinnovations.eztrashgui.EzTrashGUIPlugin
+author: EzInnovations
+api-version: '1.21'
+description: Safe confirmation trash GUI for Paper/Folia.
+folia-supported: true
+
+commands:
+  trash:
+    description: Open the trash GUI.
+    usage: /trash
+    permission: eztrashgui.use
+  eztrashgui:
+    description: EzTrashGUI admin command.
+    usage: /eztrashgui reload
+    permission: eztrashgui.admin
+
+permissions:
+  eztrashgui.use:
+    description: Allows opening the trash GUI.
+    default: true
+  eztrashgui.admin:
+    description: Allows reloading EzTrashGUI.
+    default: op
+  eztrashgui.cooldown.bypass:
+    description: Bypass trash command cooldown.
+    default: op

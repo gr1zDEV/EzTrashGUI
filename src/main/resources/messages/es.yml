@@ -1,0 +1,18 @@
+messages:
+  no-permission: "%prefix% &cNo tienes permiso para usar esto."
+  player-only: "%prefix% &cSolo los jugadores pueden usar este comando."
+
+  invalid-size: "%prefix% &cEl tamaño configurado del GUI no es válido. Usa un múltiplo de 9 con al menos 18 espacios."
+  language-file-missing: "%prefix% &cNo se pudo encontrar el archivo de idioma seleccionado. Se usará inglés."
+
+  cooldown: "%prefix% &cDebes esperar &e%seconds% &cmás segundos antes de volver a usar esto."
+
+  opened: "%prefix% &7Menú de basura abierto."
+  confirmed: "%prefix% &aTus objetos han sido eliminados permanentemente."
+  cancelled: "%prefix% &eBasura cancelada. Tus objetos fueron devueltos."
+  returned-on-close: "%prefix% &eTus objetos fueron devueltos."
+  blocked-item: "%prefix% &cEse objeto no puede ser eliminado."
+  inventory-full-drop: "%prefix% &eAlgunos objetos no cabían en tu inventario y fueron soltados en tu ubicación."
+
+  reload: "%prefix% &aLos archivos de configuración se recargaron correctamente."
+  reload-no-permission: "%prefix% &cNo tienes permiso para recargar este plugin."
