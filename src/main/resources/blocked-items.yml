@@ -3,7 +3,7 @@
 # =========================================================
 
 blocked-items:
-  enabled: false
+  enabled: true
 
   # Modes:
   # BLACKLIST = everything allowed except listed materials
